@@ -1,0 +1,21 @@
+.corpo {
+        background-color: rgb(0, 0, 0);
+        color: rgb(251, 252, 255);
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+.titulo_destaque {
+        font-size: 36px;
+    }
+
+.pag {
+        font-size: larger;
+    }
+   
+.roses {
+    color: rgb(236, 0, 0);
+
+}
