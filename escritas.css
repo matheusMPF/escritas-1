@@ -9,9 +9,24 @@
 
 .titulo_destaque {
         font-size: 36px;
-}
-   
+    }
+
 .roses {
     color: rgb(236, 0, 0);
+}
 
+.forever { 
+    color: rgb(158, 144, 123);
+}
+
+.coffee {
+    color: rgb(156, 53, 53);
+}
+
+.star {
+    color: rgb(253, 228, 3);
+}
+
+.tic_tac {
+    color: rgb(94, 97, 253);
 }
