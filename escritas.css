@@ -1,5 +1,5 @@
 .corpo {
-        background-color: rgb(0, 0, 0);
+        background-color: #16315E;
         color: rgb(251, 252, 255);
         font-family: 'Times New Roman', Times, serif;
         justify-content: center;
@@ -19,12 +19,20 @@
     color: rgb(158, 144, 123);
 }
 
+.eyes_pic{
+    width: ;
+}
 .coffee {
-    color: rgb(156, 53, 53);
+    color: rgb(136, 79, 79);
 }
 
 .star {
     color: rgb(253, 228, 3);
+}
+
+.tic_tac {
+    color: rgb(94, 97, 253);
+}
 }
 
 .tic_tac {
