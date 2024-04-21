@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Escrito</title>
+    <link rel="stylesheet" href="pag_inicial.css"></head>
 </head>
 <body>
-    <img src="a74f99629c6419aab18fc467a1a9dcbe.jpg" height="100%" width="100%"> 
+    <section class="header">
+
+    <h1 class="text">Mundo Escrito</h1>
+    <h2 class="text_h2">Sejam bem-vindos ao mundo escrito pela minha mente </h2>
+    
+    
+    </section>
 </body>
 </html>
