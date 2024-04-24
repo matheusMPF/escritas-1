@@ -1,0 +1,101 @@
+/* Gatinha, eu tbm optei por criar arquivos separados seus estilos, fica mais fácil de localiza-los. e sempre buscar deixar a página principal meio "Isolada", por isso criei a pasta "pages" dentro dela vc põe suas paáginas que não forem a principal. */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/23/71/0e/23710e95c4550efaacd7cf0c2201e3a5.jpg);
+    height: 100%;display: table;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 0;
+    background-position: 30% 45%;
+    background-size: cover;
+    overflow: hidden;
+    /* Deixe no Body seu Wallpaper, pois o body é a tag que é pai de todas, logo, ela ficará por padrão, atrás de todos os elementos */
+}
+
+/* A main faz referência a parte pricipal do teu site, em cada arquivo html, só pode haver uma main. Nesse caso, podemos deixar a main sendo "Filha direta do Body" */
+main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Aqui a main ela pega 100% do height do body */
+    height: 100%;
+    padding: 0 4rem;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* Ele vai dar um espaço entre todos os elementos dentro da main. O gap é uma propriedade do display flex, logo, só funciona se o display flex estiver sendo utilizado. */
+    gap: 1rem;
+}
+
+.container .text-boas-vindas{
+    background-color: #5f5f5f;
+    padding: 1rem;
+    border-radius: 15px;
+}
+/* Novamento preciso que um grupo de elementos, tenha um comportamento especifico, então coloquei eles dentro de uma "div pai" e irei aplicar as propriedades do display flex */
+main .btn-container{
+    width: 100%;
+    display:flex;
+    gap: 6rem;
+    
+}
+
+.btn-container a{
+    color: white;
+    text-decoration: none;
+    background-color: #5f5f5f;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+    /* Apenas uma transição para suavizar o efeito do houver. O "s" é refentente a segundos */
+    transition: 0.3s;
+}
+
+/* Esse houver sempre usamos quando quisermos que nosso elemento se comporte de uma forma diferente, sempre que o mouse passar por cima */
+.btn-container a:hover{
+    background-color: #2b2b2b;
+}
+
+
+
+
+
+
+/* .header {
+    background-image: url(https://i.pinimg.com/564x/23/71/0e/23710e95c4550efaacd7cf0c2201e3a5.jpg);
+    height: 100%;display: table;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    background-position: 30% 45%;
+    background-size: cover;
+
+}
+
+.text {
+
+    color: #DBD4BD;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.text_h2 {
+    color: #DBD4BD;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20;
+    font-weight: 700;
+    font-style: normal;
+} */
